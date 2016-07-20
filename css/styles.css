@@ -2,11 +2,15 @@
 #everything {
 	background-color: #EAF0CE;
 }
+/*.body {
+	margin: 0;
+}*/
 h1 {
 	color: #3F334D;
 	font-size: 150px;
 	text-align: center;
 	font-family: Hammersmith One;
+	margin-bottom: 40;
 }
 .sentence {
 	color: #7D8491;
@@ -17,6 +21,7 @@ h1 {
 .headerpic {
     display: block;
     margin: auto;
+    margin-bottom: 25;
     width: auto;
 }
 .aboutme {
@@ -68,4 +73,13 @@ h3 {
 }
 .socialmedia {
 	text-align: center;
+	margin-bottom: 0;
+}
+.stuff {
+	margin-bottom: 0;
+}
+#next {
+	display: block;
+	margin: auto;
+    width: auto;
 }

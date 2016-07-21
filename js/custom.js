@@ -2,7 +2,7 @@ $(document).ready(function() {
 
 	$("#switch").hide();
 
-	$("#next").click(function(){
+	$("#next").click(functio5n(){
 		$(".aboutmepic").attr("src", "images/About_Me_Evil.jpg");
 		$("#next").hide();
 		$("#switch").show();

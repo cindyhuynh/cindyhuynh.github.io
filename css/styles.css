@@ -2,11 +2,15 @@
 #everything {
 	background-color: #EAF0CE;
 }
+/*.body {
+	margin: 0;
+}*/
 h1 {
 	color: #3F334D;
 	font-size: 150px;
 	text-align: center;
 	font-family: Hammersmith One;
+	margin-bottom: 40;
 }
 .sentence {
 	color: #7D8491;
@@ -28,6 +32,7 @@ h1 {
 .aboutmepic {
 	display: block;
 	margin: auto;
+    margin-bottom: 25;
 	width: 35%;
 }
 p {
@@ -68,4 +73,23 @@ h3 {
 }
 .socialmedia {
 	text-align: center;
+	margin-bottom: 0;
 }
+.stuff {
+	margin-bottom: 0;
+}
+#next {
+	display: block;
+	margin: auto;
+    width: auto;
+}
+#switch {
+	display: block;
+	margin: auto;
+    width: auto;
+}
+
+/*add bootstrap nav bar that goes to different sections
+use bootstrap fo rthe projects and desc use containers
+use bootstrap for the connect with me sections to even out the links
+add jumbotron maybe*/

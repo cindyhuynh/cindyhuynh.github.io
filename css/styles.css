@@ -21,7 +21,6 @@ h1 {
 .headerpic {
     display: block;
     margin: auto;
-    margin-bottom: 25;
     width: auto;
 }
 .aboutme {
@@ -33,6 +32,7 @@ h1 {
 .aboutmepic {
 	display: block;
 	margin: auto;
+    margin-bottom: 25;
 	width: 35%;
 }
 p {
@@ -83,3 +83,13 @@ h3 {
 	margin: auto;
     width: auto;
 }
+#switch {
+	display: block;
+	margin: auto;
+    width: auto;
+}
+
+/*add bootstrap nav bar that goes to different sections
+use bootstrap fo rthe projects and desc use containers
+use bootstrap for the connect with me sections to even out the links
+add jumbotron maybe*/

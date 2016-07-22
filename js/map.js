@@ -7,27 +7,55 @@ function initMap() {
 
     // Function for adding a marker to the page.
     function addMarker(location) {
-        marker = new google.maps.Marker({
+        var marker = new google.maps.Marker({
             position: location,
             map: map
         });
+
+        return marker;
     }
 
+    function addInfoWindow(marker, message) {
+    	var location = marker;
+		var infowindow = new google.maps.InfoWindow({
+			content: message
+		});
+
+		google.maps.event.addListener(marker, "click", function(){
+			infowindow.open(map, marker);
+		});
+
+	}
+
     // Testing the addMarker function
-    JapanTown = new google.maps.LatLng(37.785, -122.429);
-    addMarker(JapanTown);
+    var japanTown = new google.maps.LatLng(37.785, -122.429);
+    var japanTownMarker = addMarker(japanTown);
 
-	GoldenGate = new google.maps.LatLng(37.819, -122.478);
-	addMarker(GoldenGate);
+	var goldenGate = new google.maps.LatLng(37.819, -122.478);
+	var goldengateMarker = addMarker(goldenGate);
 
-	Exploratorium = new google.maps.LatLng(37.800, -122.398);
-	addMarker(Exploratorium);
+	var exploratorium = new google.maps.LatLng(37.800, -122.398);
+	var exploreMarker = addMarker(exploratorium);
 
-	ATT = new google.maps.LatLng(37.778, -122.389);
-	addMarker(ATT);
+	var aTT = new google.maps.LatLng(37.778, -122.389);
+	var attPark = addMarker(aTT);
 
-	GGPark = new google.maps.LatLng(37.769, -122.486);
-	addMarker(GGPark);
+	var cT = new google.maps.LatLng(37.794, -122.407);
+	var chinaMarker = addMarker(cT);
 
+	var ggPark = new google.maps.LatLng(37.769, -122.486);
+	var gg = addMarker(ggPark);
+
+	var union = new google.maps.LatLng(37.787, -122.407);
+	var unionn = addMarker(union);
+
+	addInfoWindow(japanTownMarker, "Japantown");
+	addInfoWindow(goldengateMarker, "Golden Gate Bridge");
+	addInfoWindow(exploreMarker, "Exploratorium");
+	addInfoWindow(attPark, "AT&T Park");
+	addInfoWindow(chinaMarker, "Chinatown");
+	addInfoWindow(gg, "Golden Gate Park");
+	addInfoWindow(unionn, "Union Square");
+	
 
 }

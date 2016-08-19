@@ -1,22 +1,37 @@
 
 #everything {
-	background-color: #EAF0CE;
+	background-color: #EFF2C6;
 }
-/*.body {
+html,body
+{
+    width: 100%;
+    height: 100%;
+    margin: 0px;
+    padding: 0px;
+    overflow-x: hidden; 
+}
+/*
+.body {
 	margin: 0;
 }*/
-h1 {
-	color: #3F334D;
+.header {
+	color: #34344A;
 	font-size: 150px;
 	text-align: center;
 	font-family: Hammersmith One;
 	margin-bottom: 40;
+	margin-top: 0px;
+	padding-top: 15px;
 }
 .sentence {
-	color: #7D8491;
-	font-size: 45px;
+	color: #6397A5;
+	font-size: 37px;
 	text-align: center;
 	font-family: Kalam;
+	padding-bottom: 20px;
+}
+#bar {
+	
 }
 .headerpic {
     display: block;
@@ -24,32 +39,35 @@ h1 {
     width: auto;
 }
 .aboutme {
-    color: #574B60;
+    color: #636363;
 	font-size: 75px;
 	text-align: center;
 	font-family: Pacifico;
+	margin-top:50px;
 }
 .aboutmepic {
 	display: block;
 	margin: auto;
     margin-bottom: 25;
+    margin-top: 40px;
 	width: 35%;
 }
 p {
 	font-size: 25;
 	text-align: center;
 	font-family: Katibeh;
+	padding: 15px;
 }
-.portfolio {
+/*.portfolio {
     color: #574B60;
 	font-size: 75px;
 	text-align: center;
 	font-family: Pacifico;
-}
-h3 {
+}*/
+/*h3 {
 	font-size: 40;
-}
-.brickbreaker {
+}*/
+/*.brickbreaker {
 	display: block;
 	width: 18%;
 }
@@ -74,7 +92,7 @@ h3 {
 .socialmedia {
 	text-align: center;
 	margin-bottom: 0;
-}
+}*/
 .stuff {
 	margin-bottom: 0;
 }
@@ -87,6 +105,61 @@ h3 {
 	display: block;
 	margin: auto;
     width: auto;
+}
+#serious {
+	display: block;
+	margin: auto;
+    width: auto;
+    margin-bottom: 30px;
+}
+#back {
+	display: block;
+	margin: auto;
+    width: auto;
+    margin-bottom: 30px;
+}
+}
+.col-sm-3 {
+    text-align: center;
+}
+.footcontainer {
+    padding-top: 0px;
+    padding-bottom: 15px;
+    background-color: #FFFFFF;
+    border-top: thick solid #82968C
+}
+.connect{
+    font-family: "Rubik";
+    margin-top: 44px;
+    color: black;
+    font-size: 20px;
+    padding-top: 20px;
+    padding-left: 20px;
+    margin-bottom: 0px;
+}
+.facebook {
+    margin-top: 40px;
+    color: black;
+    padding-left: 20px;
+    margin-bottom: 15px;
+    display: block;
+    height: 73px;
+}
+.twitter {
+    margin-top: 40px;
+    color: black;
+    padding-left: 20px;
+    margin-bottom: 15px;
+    display: block;
+    height: 73px;
+}
+.instagram {
+    margin-top: 40px;
+    color: black;
+    padding-left: 20px;
+    margin-bottom: 15px;
+    display: block;
+    height: 73px;
 }
 
 /*add bootstrap nav bar that goes to different sections

@@ -1,6 +1,8 @@
 $(document).ready(function() {
 
 	$("#switch").hide();
+	$("#back").hide();
+	$(".real").hide();
 
 	$("#next").click(function(){
 		$(".aboutmepic").attr("src", "images/About_Me_Evil.jpg");
@@ -12,6 +14,20 @@ $(document).ready(function() {
 		$(".aboutmepic").attr("src", "images/About_Me.jpg");
 		$("#switch").hide();
 		$("#next").show();
+	})
+
+	$("#serious").click(function(){
+		$(".funny").hide();
+		$(".real").show();
+		$("#serious").hide();
+		$("#back").show();
+	})
+
+	$("#back").click(function(){
+		$(".real").hide();
+		$(".funny").show();
+		$("#back").hide();
+		$("#serious").show();
 	})
 
 	

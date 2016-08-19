@@ -28,10 +28,10 @@ html,body
 	font-size: 37px;
 	text-align: center;
 	font-family: Kalam;
-	padding-bottom: 20px;
+	padding-bottom: 30px;
 }
 #bar {
-	
+    
 }
 .headerpic {
     display: block;
@@ -43,7 +43,7 @@ html,body
 	font-size: 75px;
 	text-align: center;
 	font-family: Pacifico;
-	margin-top:50px;
+	margin-top:55px;
 }
 .aboutmepic {
 	display: block;
@@ -126,7 +126,8 @@ p {
     padding-top: 0px;
     padding-bottom: 15px;
     background-color: #FFFFFF;
-    border-top: thick solid #82968C
+    border-top: thick solid #82968C;
+    margin-top: 60px;
 }
 .connect{
     font-family: "Rubik";

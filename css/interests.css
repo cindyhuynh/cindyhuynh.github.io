@@ -34,11 +34,6 @@ html,body
     border: double #337ab7;
     border-spacing: 1px;
 }
-.headerpic {
-    display: block;
-    margin: auto;
-    width: auto;
-}
 .aboutme {
     color: #006699;
 	font-size: 75px;
@@ -59,41 +54,6 @@ p {
 	font-family: Katibeh;
 	padding: 15px;
 }
-/*.portfolio {
-    color: #574B60;
-	font-size: 75px;
-	text-align: center;
-	font-family: Pacifico;
-}*/
-/*h3 {
-	font-size: 40;
-}*/
-/*.brickbreaker {
-	display: block;
-	width: 18%;
-}
-.piggame {
-	display: block;
-	width: 19%;
-}
-.password {
-	display: block;
-	width: 24%;
-}
-.robotics {
-	display: block;
-	width: 19%;
-}
-.connect {
-	color: #959E94;
-	text-align: center;
-	font-size: 20px;
-	font-family: Verdana;
-}
-.socialmedia {
-	text-align: center;
-	margin-bottom: 0;
-}*/
 .stuff {
 	margin-bottom: 0;
 }
@@ -163,9 +123,52 @@ p {
     display: block;
     height: 73px;
 }
-
-/*add bootstrap nav bar that goes to different sections
-use bootstrap fo rthe projects and desc use containers
-use bootstrap for the connect with me sections to even out the links
-add jumbotron maybe*/
-/*add a button where if clicked then the bio turns  into a serious bio and hide the not serious one*/
+.ehspic {
+    padding-left: 20px;
+    display: block;
+    width: 390px;
+    padding-top: 0px;
+    margin-top: 0px;
+}
+.ehsdesc {
+	text-align: left;
+}
+.shoongpic {
+    padding-left: 20px;
+    display: block;
+    height: 325px;
+    margin-left: auto;
+    margin-right: auto;
+}
+.gwcpic {
+    padding-left: 20px;
+    display: block;
+    height: 325px;
+    margin-left: auto;
+    margin-right: auto;
+}
+.schools {
+	padding-left: 20px;
+}
+.names {
+	font-family: Montserrat Alternates;
+	font-size: 35px;
+	padding-left: 21px;
+	margin-bottom: 0px;
+	align-items: center;
+	padding-bottom: 0px;
+}
+.stuff {
+	font-family: Josefin Sans;
+	text-align: center;
+	font-size: 20px;
+	padding-top: 0px;
+	margin-top:0px;
+}
+.big {
+	font-family: Josefin Sans;
+	text-align: center;
+	font-size: 29px;
+	padding-bottom: 5px;
+	margin-bottom:0px;
+}

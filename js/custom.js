@@ -30,21 +30,4 @@ $(document).ready(function() {
 		$("#serious").show();
 	})
 
-	
-	// var imgArray = ["<img src="images/About_Me.jpg" />","<img src="images/Brick_Breaker.png" />","<img src="images/Pig_Game.png" />"]
-
-
-	// $("#next").click(function(){
-	// 	for (var i = 0; i < arrayLength; i++) {
- //    		alert(imgArray[i]);
-	// 	}
-	// })
-	
-
-	// var arrayLength = imgArray.length;
-	// for (var i = 0; i < arrayLength; i++) {
-	//     alert(imgArray[i]);
-	// }
-
-
 })
